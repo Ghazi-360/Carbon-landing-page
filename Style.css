@@ -114,3 +114,51 @@
 
     background: #ffffff;
 }
+
+#Hero p {
+    position: absolute;
+    left: 210px;
+    top: 680px;
+    font-family: Antonio;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+/* identical to box height */
+
+
+    color: rgba(30, 30, 34, 0.7);
+}
+
+.Scene2 {
+    position: absolute;
+    width: 332px;
+    height: 412px;
+    left: 771px;
+    
+
+    background: url("./Assets/Rectangle\ 16.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#Hero h1 {
+    position: absolute;
+    width: 293px;
+    height: 77px;
+    left: 400px;
+    top: 500px;
+
+    font-family: Monument Extended;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+/* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #353538;
+}
