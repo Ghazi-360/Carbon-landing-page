@@ -80,7 +80,6 @@
 #Hero {
     width: 100%;
     height: 800px;
-    background-color: aqua;
 }
 
 .Scene {
@@ -119,7 +118,7 @@
     position: absolute;
     left: 210px;
     top: 680px;
-    font-family: Antonio;
+    font-family: poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -132,9 +131,9 @@
 
 .Scene2 {
     position: absolute;
-    width: 332px;
+    width: 483px;
     height: 412px;
-    left: 771px;
+    left: 945px;
     
 
     background: url("./Assets/Rectangle\ 16.png");
@@ -150,7 +149,7 @@
     left: 400px;
     top: 500px;
 
-    font-family: Monument Extended;
+    font-family: poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
@@ -161,4 +160,41 @@
     align-items: center;
 
     color: #353538;
+}
+
+.Para {
+    position: absolute;
+    width: 617px;
+    height: 105px;
+    margin-left: 612px;
+    top: 833px;
+
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #353538;
+}
+
+.Cart {
+    position: absolute;
+    width: 270px;
+    height: 85px;
+    left: 1450px;
+    top: 743px;
+
+    border: 1px solid #1E1E22;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #1E1E22;
 }
