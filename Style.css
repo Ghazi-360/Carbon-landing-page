@@ -6,7 +6,7 @@
 
 #Container {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: #E5E5E5;
 }
 
@@ -75,4 +75,42 @@
     background-position: center;
     background-repeat: no-repeat;
     float: right;
+}
+
+#Hero {
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+}
+
+.Scene {
+    position: absolute;
+    width: 505px;
+    height: 585px;
+    
+
+    background: url("./Assets/Rectangle\ 8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.checkBlack {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 220px;
+    top: 540px;
+
+    background: #1E1E22;
+}
+
+.checkWhite {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 270px;
+    top: 540px;
+
+    background: #ffffff;
 }
